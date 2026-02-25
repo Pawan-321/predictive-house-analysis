@@ -27,7 +27,7 @@ function onClickedEstimatePrice() {
   var estPrice = document.getElementById("uiEstimatedPrice");
 
   // var url = "https://predictive-house-analysis.onrender.com"; //Use this if you are NOT using nginx which is first 7 tutorials
-  var url = "https://predictive-house-analysis.onrender.com"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
+  var url = "https://predictive-house-analysis.onrender.com/predict_home_price"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
 
   $.post(url, {
       total_sqft: parseFloat(sqft.value),
